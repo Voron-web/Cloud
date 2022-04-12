@@ -1084,6 +1084,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 .features__cloud1 {
@@ -1477,8 +1478,8 @@ body {
   display: flex;
   -webkit-transform: translateX(0);
           transform: translateX(0);
-  -webkit-transition: all 1.5s cubic-bezier(0.47, 0, 0.745, 0.715);
-  transition: all 1.5s cubic-bezier(0.47, 0, 0.745, 0.715);
+  -webkit-transition: all 1s cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition: all 1s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 .slide__conteiner {

@@ -762,6 +762,7 @@ body {
       height: 100%;
       top: 0;
       left: 0;
+      z-index: -1;
    }
 
    &__cloud1 {
@@ -984,22 +985,15 @@ body {
 
 .blog {
    background-color: #f5f8ff;
-   // padding: 0 0 60% 0;
-   // position: relative;
    &__slider {
-      // margin: 92px 240px 0;
       margin: 92px 0 0 0;
       position: relative;
       display: flex;
    }
    &__slider-wrapper {
-      // padding: 0 16.67%;
-      // position: relative;
-      // display: flex;
       border: 1px solid #d8e3fe;
       overflow: hidden;
       order: 2;
-      // transform: translate(-px, 0);
    }
    &__button-left {
       display: flex;
@@ -1016,7 +1010,6 @@ body {
       justify-content: center;
       align-items: center;
       order: 3;
-      // min-width: 240px;
       flex: 1 0 16.74%;
       &:hover {
          background-color: rgba(0, 0, 0, 0.03);
@@ -1069,7 +1062,7 @@ body {
    &__tape {
       display: flex;
       transform: translateX(0);
-      transition: all 1.5s cubic-bezier(0.47, 0, 0.745, 0.715);
+      transition: all 1s cubic-bezier(0.47, 0, 0.745, 0.715);
    }
    &__conteiner {
       display: flex;
